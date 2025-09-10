@@ -1,6 +1,7 @@
 {
   "version": 2,
   "routes": [
-    { "src": "/sonolus/info", "dest": "/api/sonolus.js" }
+    { "src": "/sonolus/info", "dest": "/api/sonolus.js" },
+    { "src": "/sonolus/levels/list", "dest": "/api/levels.js" }
   ]
 }
