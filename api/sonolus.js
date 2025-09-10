@@ -3,6 +3,9 @@ export default function handler(req, res) {
     title: "My Sonolus Server",
     banner: "https://example.com/banner.jpg",
     background: "https://example.com/background.jpg",
-    description: "Welcome to my custom Sonolus server!"
+    description: "Welcome to my custom Sonolus server!",
+    genres: [],
+    servers: [],
+    recommended: []
   })
 }
