@@ -2,6 +2,11 @@
   "version": 2,
   "routes": [
     { "src": "/sonolus/info", "dest": "/api/sonolus.js" },
-    { "src": "/sonolus/levels/list", "dest": "/api/levels.js" }
+    { "src": "/sonolus/levels/list", "dest": "/api/levels.js" },
+    { "src": "/sonolus/engines/list", "dest": "/api/engines.js" },
+    { "src": "/sonolus/backgrounds/list", "dest": "/api/backgrounds.js" },
+    { "src": "/sonolus/skins/list", "dest": "/api/skins.js" },
+    { "src": "/sonolus/particles/list", "dest": "/api/particles.js" },
+    { "src": "/sonolus/effects/list", "dest": "/api/effects.js" }
   ]
 }
